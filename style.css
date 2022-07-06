@@ -1,0 +1,360 @@
+*{
+                        padding: 0%;
+                        margin: 0%;
+}
+
+body{
+                        font-family: 'Roboto', sans-serif;
+}
+/* Header secton css */
+.header{
+
+}
+.header .header-logo {
+                        text-align: center;
+                        height: 100px;
+}
+.header .header-logo img{
+                        height: 100%;
+}
+
+/* slider section css */
+
+.slider-section{
+                        background-image: url(./img/donation9.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-attachment: scroll;
+                        background-size: cover;
+                        height: 550px;
+                        
+}
+/* .slider-section .slider-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.slider-section h1 {
+                      
+                        text-align: center;
+                        font-size: 63px;
+                        font-weight: bold;
+                        color: #fff;
+                        padding-top: 113px;
+}
+.slider-section p {
+                      
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: #000;
+                        margin-top: 30px;
+}
+.slider-section p i{
+                        color: #d1066b;
+                        font-size: 25px;
+                        transition: .5s;
+                        cursor: pointer;
+}
+.slider-section p i:hover{
+                        color: #0dd424;
+}
+.slider-section .btn-donet{
+                        text-align: center;
+                        margin-top: 50px;
+}
+.slider-section .button {
+                        text-decoration: none;
+                        padding: 16px 37px;
+                        background-image: linear-gradient(#b035e0, #d820fd, #d1066b);
+                        color: #fff;
+                        font-size: 20px;
+                        border-radius: 10px;
+}
+.button {
+                        text-decoration: none;
+                        padding: 16px 37px;
+                        background-image: linear-gradient(#b035e0, #d820fd, #d1066b);
+                        color: #fff;
+                        font-size: 20px;
+                        border-radius: 10px;
+}
+/* Donate today section css */
+
+.donate-today{
+                        margin-top: 100px;
+                        text-align: center;
+}
+.donate-today h1 {
+                        margin-bottom: 20px;
+                        font-size: 45px;
+                        color: #59755c;
+}
+.donate-today p {
+                        line-height: 27px;
+                        font-size: 19px;
+                        font-weight: 500;
+                        color: #000;
+}
+.donate-today .donate-amount {
+                        margin-top: 78px;
+}
+.donate-today .donate-amount h1 {
+                        color: #49524a;
+                        display: inline-flex;
+                        margin-right: 36px;
+                        text-align: center;
+                        background-color: rgba(178, 190, 195,0.5);
+                        padding: 30px 37px;
+                        border-radius: 10px;
+}
+
+.donate-today .donate-amount .set-difarent{
+                        background-color: rgba(235, 77, 75,0.5);
+                        border: 1.5px solid #c71ea8;
+                        color: #d1066b;
+}
+.donate-today .donate-amount .center-p{
+                        display: flex;
+                        justify-content: center;
+}
+.donate-today .donate-amount p{
+                        color: #998595;
+                        border-bottom: 2px solid #ddd;
+                        width: 50%;
+                        margin-bottom: 20px;
+}
+.donate-today .b-donate{
+                        text-align: center;
+                        margin-top: 35px;
+}
+.donate-today .b-donate a {
+                        text-decoration: none;
+                        padding: 16px 37px;
+                        /* background-image: linear-gradient(#b035e0, #d820fd, #d1066b); */
+                        color: #fff;
+                        font-size: 20px;
+                        border-radius: 10px;
+                        background-image: linear-gradient(#D980FA, #5758BB, #d1d8e0);
+ } 
+
+ /* our donate plane */
+
+ .our-donate-plan {
+                        margin-top: 100px;
+ }
+
+ .our-donate-plan .donate-plan-text{
+                        text-align: center;
+ }
+ .our-donate-plan .donate-plan-text h1 {
+                        margin-bottom: 20px;
+                        font-size: 53px;
+                        color: #7394f0;
+}
+.our-donate-plan .donate-plan-text p {
+                        width: 70%;
+                        font-size: 18px;
+                        line-height: 25px;
+                        font-weight: 500;
+                        color: #000;
+}
+.food-family-section{
+                        display: flex;
+                        margin-top: 77px;
+}
+ .our-donate-plan .donate-plan-text .center-p{
+                        display: flex;
+                        justify-content: center;
+ }
+
+ .our-donate-plan .food-family {
+                        padding: 18px 16px;
+                        box-shadow: 7px 3px 14px rgb(99 110 114);
+                        margin-right: 20px;
+                        border-radius: 5px;
+                        height: 206px;
+}
+.our-donate-plan .margin-left{
+                        margin-left: 20px;
+}
+.our-donate-plan .setbg1{
+                        background-color: rgba(250, 177, 160,0.4);
+}
+.our-donate-plan .setbg2{
+                        background-color: rgba(236, 250, 160, 0.4);
+}
+.our-donate-plan .setbg3{
+                        background-color: rgba(202, 160, 250, 0.4);
+}
+.our-donate-plan .food-family-section .food-family .set-img {
+                        margin-bottom: 19px;
+                        margin-left: 8px;
+}
+ .our-donate-plan .set-flex{
+                      
+ }
+ .our-donate-plan .text{
+
+ }
+ .our-donate-plan .text h2 {
+                        font-size: 24px;
+                        color: #000;
+                        margin-bottom: 7px;
+}
+.our-donate-plan .text p {
+                        line-height: 24px;
+                        font-family: cursive;
+                        color: rgba(45, 52, 54,1.0);
+}
+
+/* Depent donetion section css start */
+
+.depent-donation-section{
+                        margin-top: 120px;
+}
+.depent-donation-section .donate-flex{
+                        display: flex;
+                        justify-content: center;
+                        padding: 40px;
+}
+.depent-donation-section .donate-flex-x {
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 70px;
+                        padding: 40px;
+}
+.depent-donation-section .depent-d-img {
+                        text-align: center;
+                        width: 66%;
+}
+.depent-donation-section .depent-i {
+                        
+}
+.depent-donation-section .depent-d-img img{
+                        height: 90%;
+                        border-radius: 15px;
+}
+.depent-donation-section .depent-d-img .img {
+                        height: 420px;
+                        border-radius: 15px;
+                        margin-right: 20px;
+}
+.depent-donation-section .depent-d-text {
+                        text-align: center;
+                        margin-top: 70px;
+}
+.depent-donation-section .depent-d-text h1 {
+                        font-size: 47px;
+                        font-family: fangsong;
+                        margin-bottom: 20px;
+}
+.depent-donation-section .depent-d-text p {
+                        line-height: 25px;
+                        font-weight: 500;
+                        color: #000;
+}
+.depent-donation-section .button-d{
+                        margin-top: 38px;
+}
+
+/* video section css */
+.video-section {
+                        margin-top: 59px;
+}
+.video-section .add-video{
+                        text-align: center;
+}
+
+/* Section get update css*/
+.get-update{
+                        text-align: center;
+                        margin-top: 100px;
+}
+.get-update .get-update-text h1 {
+                        font-size: 53px;
+                        font-weight: 500;
+                        margin-bottom: 13px;
+}
+.get-update .get-update-text p {
+                        font-size: 18px;
+                        color: #91845e;
+}
+
+/* subscribe section css */
+
+.subscribe-section {
+                        margin-top: 27px;
+                        background-image: url(./img/360_F_322458522_fWMrqLWx59EDO1jYpMq0ACdkzv8YEYUj.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        padding: 26px 0;
+}
+.subscribe-section h1 {
+                        padding-top: 41px;
+                        font-size: 41px;
+                        margin-bottom: 10px;
+                        font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+                        color: #202020;
+}
+.subscribe-section .flex-section {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 125px;
+}
+.subscribe-section .input-section input {
+                        font-size: 19px;
+                        margin-right: 10px;
+                        padding: 13px 141px 13px 7px;
+}
+
+.subscribe-section .input-section button {
+                        padding: 14px 53px;
+                        font-size: 20px;
+                        background-image: linear-gradient(#ec2779, #c704f8, #6f00ff);
+                        border: 1px solid #ddd;
+                        border-radius: 5px;
+                        color: #fff;
+                        cursor: pointer;
+}
+.subscribe-section .btn{
+                        display: contents;
+}
+input:focus{
+                        outline: none;
+                        box-shadow: 2px 2px 4px rgb(71, 65, 65);
+                        border: 1px solid #ddd;
+}
+
+/* Footer css start */
+
+footer {
+                        background-color: #202020;
+                        margin-top: 100px;
+                        padding: 50px 0;
+}
+
+footer .footer-text{
+                        text-align: center;
+}
+footer .footer-text h2 {
+                        font-size: 30px;
+                        color: cyan;
+                        font-family: -webkit-body;
+}
+footer .footer-text h6 {
+                        margin-top: 8px;
+                        font-size: 14px;
+                        font-family: fangsong;
+                        color: #d1d8e0;
+}
+footer .footer-text h6 span{
+                        transition: .5s;
+                        cursor: pointer;
+}
+footer .footer-text h6 span:hover{
+                        color: #c704f8;
+                        letter-spacing: 1px;
+}
